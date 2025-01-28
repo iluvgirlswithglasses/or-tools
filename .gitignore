@@ -76,6 +76,7 @@ cache/
 **/.vscode/*
 .DS_Store
 **/.vs/*
+./compile_commands.json
 
 ortools/linear_solver/lpi_glop.cc
 

@@ -15,6 +15,9 @@ if(NOT BUILD_CXX)
   return()
 endif()
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+message(STATUS "[ilgwg] CMAKE_EXPORT_COMPILE_COMMANDS ON")
+
 # Basic type
 include(CMakePushCheckState)
 cmake_push_check_state(RESET)
